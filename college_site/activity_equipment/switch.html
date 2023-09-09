@@ -1,0 +1,67 @@
+﻿<html>
+<head>
+<title>Активное оборудование</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<h1 class="sh anima" align=center>Сайт для производственной практики</h1>
+<h2 class="sh" align=center>&laquo;Участие в проектировании сетевой инфраструктуры&#187; </h2>
+<br>
+
+<div class="divtop">
+<ul class="topul zagol">
+    <li class="topli"><a href="../index.html">ГЛАВНАЯ</a></li>
+    <li class="topli"><a href="../lan/lan.html">Локальная сеть</a></li>
+    <li class="topli main-header">Активное оборудование</li>
+    <li class="topli"><a href="../computers_and_peripheral/computers_and_peripheral.html">Компьютеры и периферийные устройства</li>
+    <li class="topli"><a href="../list_used_source/list_used_source.html">Список используемых источников</li>
+</ul>
+</div>
+
+
+<div class="divleft">
+<ul class="zagol leftul">
+<li class="leftli"><a class="link_line" href="whatae.html"><div class="lnk_black">Что такое активное оборудование?</div></a></li>
+<li class="leftli"><a class="link_line" href="network_adapter.html"><div class="lnk_black">Сетевой адаптер</div></a></li>
+<li class="leftli"><a class="link_line" href="repeater.html"><div class="lnk_black">Репитер</div></a></li>
+<li class="leftli"><a class="link_line" href="concentrator.html"><div class="lnk_black">Концентратор</div></a></li>
+<li class="leftli"><a class="link_line" href="bridge.html"><div class="lnk_black">Мост</div></a></li>
+<li class="leftli left-header">Коммутатор</li>
+<li class="leftli"><a class="link_line" href="router.html"><div class="lnk_black">Маршрутизатор</div></a></li>
+<li class="leftli"><a class="link_line" href="mediaconverter.html"><div class="lnk_black">Медиаконвертер</div></a></li>
+<li class="leftli"><a class="link_line" href="network_transceiver.html"><div class="lnk_black">Сетевой трансивер</div></a></li>
+</ul>
+</div>
+
+<div class="divcenter">
+<h1 class="title sh_for_title">Коммутатор (свитч)</h1>
+<p class="cent-zag">Коммутатор (свитч) — прибор с несколькими (4-32) портами, обычно используемый для объединения нескольких рабочих групп ЛВС (иначе называется многопортовый мост)</p>
+<img src="switch.png"> 
+<p class="cent-zag">Коммутатор хранит в памяти (т.н. ассоциативной памяти) таблицу коммутации, в которой указывается соответствие MAC-адреса узла порту коммутатора. При включении коммутатора эта таблица пуста, и он работает в режиме обучения. В этом режиме поступающие на какой-либо порт данные передаются на все остальные порты коммутатора. При этом коммутатор анализирует фреймы (кадры) и, определив MAC-адрес хоста-отправителя, заносит его в таблицу на некоторое время. Впоследствии, если на один из портов коммутатора поступит кадр, предназначенный для хоста, MAC-адрес которого уже есть в таблице, то этот кадр будет передан только через порт, указанный в таблице. Если MAC-адрес хоста-получателя не ассоциирован с каким-либо портом коммутатора, то кадр будет отправлен на все порты, за исключением того порта, с которого он был получен. Со временем коммутатор строит таблицу для всех активных MAC-адресов, в результате трафик локализуется. Стоит отметить малую латентность (задержку) и высокую скорость пересылки на каждом порту интерфейса.</p>
+<ul class="centli">
+<p class="cent-zag">Режимы коммутации:</p>
+
+
+
+<li>С промежуточным хранением (Store and Forward). Коммутатор читает всю информацию в кадре, проверяет его на отсутствие ошибок, выбирает порт коммутации и после этого посылает в него кадр.</li>
+
+<li>Сквозной (cut-through). Коммутатор считывает в кадре только адрес назначения и после выполняет коммутацию. Этот режим уменьшает задержки при передаче, но в нём нет метода обнаружения ошибок.</li>
+
+<li>Бесфрагментный (fragment-free) или гибридный. Этот режим является модификацией сквозного режима. Передача осуществляется после фильтрации фрагментов коллизий (первые 64 байта кадра анализируются на наличие ошибки и при её отсутствии кадр обрабатывается в сквозном режиме).</li>
+<ul>
+</div>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+</html>

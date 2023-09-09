@@ -1,0 +1,165 @@
+﻿//span {
+       //height: 30%;
+       color: green;
+       border-right: 20px solid RGBA(56, 58, 62, 0.7);
+       background: rgb(51,0,255);
+       border-radius: 10%;
+       padding-top: 20%; 
+       //position: absolute;
+      }
+.body-color {background: #EAF0FF;}  
+//#D9DEEC
+//#EAF0FF  
+{}  
+.link-edit1 {
+             color: #AE6C37;
+             text-decoration: none;
+             text-transform: uppercase; 
+            }
+.link-edit2 {
+             text-decoration: none;
+             color: #6F7173;
+             text-transform: uppercase; 
+            }    
+#about-site {
+             background: gray;
+             padding-top: 5%;
+             padding-bottom: 5%;
+             width: 240px;
+             height: 5px;
+             border-radius: 5px;
+             text-align: center;
+             //position: absolute;
+             //position: relative;
+             transition: all .3s linear;
+            }  
+.about-site-link {
+                  text-decoration: none;
+                  color: black;
+                  text-transform: uppercase;
+                  //display: inline-block;
+                  //width: 20px;
+                  //padding-top: 5%;
+                  background: pink;
+                  //position: absolute;
+                  //padding: 65px 10px 10px 10px;
+                  //display: block;
+                 }          
+.div-about-site {
+                 //padding-top: 5%;
+                 //padding-bottom: 15%;
+                 //margin-bottom: 10%;
+                 //height: 150px;
+                 //height: 22%;
+                 //position: relative;
+                 //position: absolute;
+                 //text-align: center;
+                 font-size: 20px;  
+                 margin-top: -10%;
+                 
+                }  
+#about-site:hover {
+                   background: linear-gradient(to top, #B7CBFF, #8EAEFF); //white, green
+                   
+                  }                                                 
+#div-edit1 {
+            background: #FF9D1E;
+            transition: all .3s linear;
+            border-radius: 5px;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            margin-top: 1%; 
+            height: 5px;
+            width: 240px;
+           } 
+#div-edit1:hover {
+                  background: linear-gradient(to top, #FFAC42, #FF9D1E);
+                 }    
+#div-edit2 {
+            background: #13171B;
+            position: absolute;
+            transition: all .3s linear;
+            border-radius: 5px;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            margin-top: 1%; 
+            height: 5px;
+            width: 240px;
+           } 
+#div-edit2:hover {
+                  background: linear-gradient(to top, #272D33, #13171B);
+                 }              
+#div-edit3 {
+            background: #13171B;
+            margin-left: 0.5%;
+            position: absolute;
+            left: 240px;
+            transition: all .3s linear;   
+            border-radius: 5px;
+            padding-top: 3%;
+            padding-bottom: 3%;
+            margin-top: 1%;
+            height: 5px;
+            width: 240px;
+           }  
+#div-edit3:hover {
+                  background: linear-gradient(to top, #272D33, #13171B);
+                  padding-top: 5%;
+                  padding-bottom: 5%;
+                 }                                                           
+#div-edit-2-3 {
+               position: relative;
+               //height: 200px; 
+               margin-bottom: 15%;
+              }                                                
+.div-inside1 {
+              text-align: center;
+              margin-top: -15%;
+              font-size: 20px;
+             }               
+.div-inside2 {
+              text-align: center;
+              margin-top: -10%;
+              font-size: 20px;
+             }             
+     
+.w-i-p {
+        border: 1px solid black;
+        //padding: 10%;
+        width: 180px; 
+        height: 40px; 
+        //margin: 10px 0;
+        background: gray;
+        position: relative;
+        //padding-top: 10%;
+        font-size: 140%;
+        //line-height: -20%;
+       }                     
+.w-i-p:after {
+              content:' ';
+              width: 0px;
+              height: 0px;
+              top: -20px; 
+              left: 100%;
+              border-top: 40px solid transparent;
+              border-left: 80px solid #D0D4DC;
+              border-bottom: 40px solid transparent;
+              position: absolute;
+             }     
+.wip-div {
+          display: inline-block;
+          //border: 10px solid black;
+         }
+.wip-link {
+           text-decoration: none;
+           color: black;
+          } 
+.wip-div:hover {
+                margin-left: 5%;
+                transition: all .3s ease;
+                background: red;
+               }                                           
+  
+
+
+                    

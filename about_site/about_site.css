@@ -1,0 +1,16 @@
+﻿#up:hover {background: #B7CBFF; //red
+     display: inline;
+     font-size: 105%;
+     position: relative;
+     transition: all .3s ease-in-out;
+     border: 5px solid #8EAEFF; //black
+     border-radius: 5px;
+     }
+p {font-size: 200%;} 
+//p::selection {background: black;}
+.body-color {background: #EAF0FF;}   
+.back {
+       text-decoration: none;
+       color: black;
+       font-size: 200%;
+      } 
