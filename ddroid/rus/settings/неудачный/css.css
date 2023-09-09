@@ -1,0 +1,112 @@
+﻿.aa {color: red;
+     line-height: 1000%;
+}
+.bg {
+     background-color: #F1FF1F;
+     }
+.grad {
+       background: linear-gradient(to bottom, #05080A, #272D33);  /*Нужный градиент установлен*/
+       }  
+.text_white {
+             color: #F1F1F1;  /*Цвет текста максимально правильно подобран*/
+             }          
+@font-face {
+            font-family: 'Roboto-Regular';   /*Основной шрифт найден и корректно подключен*/
+            src: url('Roboto-Regular.ttf');
+            }     
+.ff {
+     font-family: 'roboto-regular';
+     }                    
+.margtext {
+           margin-left: 20%;
+           }     
+.margbody {
+           margin: 0;
+           }   
+.fz {
+     font-size: 300%;
+     }
+.textindent111 {
+             text-indent: 20%;
+             }                        
+.pad {
+      padding-left: 10%;   /*Примерный отступ текста настроен*/
+      }     
+      
+.alltype {
+          background: linear-gradient(to bottom, #05080A, #272D33);  /*Нужный градиент установлен*/
+          color: #F1F1F1; /*Цвет текста максимально правильно подобран*/
+          font-family: 'roboto-regular';
+          ///margin-left: 20%;
+          font-size: 300%;
+          padding-left: 10%;   /*Примерный отступ текста настроен*/
+          ///margin-bottom: 0%;
+          }
+.overline {
+           text-decoration: overline red;
+           }    
+.overline1 {
+           text-decoration: overline green;
+           }      
+.border {  
+         
+         display: block;
+         border-bottom: solid green;
+         width: 50%;
+         ///height: -40px;
+         line-height: -30px;
+         }                           
+.prost {
+        margin-left: 10%;
+        }    
+.td {
+     text-decoration: dotted underline purple;
+     ///border: 20px solid;
+     ///padding-bottom: 10%;
+     }         
+li {
+    ///border-bottom: 4px solid #383A3E;
+    //padding-bottom: 10%;
+    }            
+span:after {
+      display: block;
+      ///text-decoration: solid underline green;
+      content: ' ';
+      ///border-bottom: 4px solid RGBA(255,0,0, 0.5);
+      border-bottom: 4px solid #383A3E;
+      margin-left: 10%;
+      margin-right: 10%;
+      }           
+li:hover {
+      ///color: red;
+      background: #277694;
+    }  
+.lh {
+     ///display: inline;
+     ///line-height: 20%;
+     ///padding-bottom: 20%;
+     }        
+.title {
+        margin-left: -5%;
+        font-size: 50%;
+        }  
+.pr {
+     line-height: 100%;
+     }   
+.minititle:after {
+                 display: block;
+      ///text-decoration: solid underline green;
+      content: ' ';
+      ///border-bottom: 4px solid RGBA(255,0,0, 0.5);
+      border-bottom: 4px solid #383A3E;
+      margin-left: -5%;
+      margin-right: 10%;
+            }     
+div {
+     margin-left: 1%;
+     }      
+     
+span:hover {
+      ///color: red;
+      background: #277694;
+    }                              
